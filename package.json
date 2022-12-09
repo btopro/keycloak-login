@@ -24,6 +24,7 @@
     "@lrnwebcomponents/es-global-bridge": "4.0.0"
   },
   "devDependencies": {
+    "rollup-plugin-copy": "3.4.0",
     "@babel/preset-env": "^7.16.4",
     "@custom-elements-manifest/analyzer": "^0.4.17",
     "@open-wc/building-rollup": "^2.0.1",
