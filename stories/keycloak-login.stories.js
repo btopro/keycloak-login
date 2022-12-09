@@ -1,9 +1,9 @@
 import { html } from 'lit';
-import '../src/ist-vercel-demo.js';
+import '../src/KeycloakLogin.js';
 
 export default {
-  title: 'IstVercelDemo',
-  component: 'ist-vercel-demo',
+  title: 'keycloaklogin',
+  component: 'keycloak-login',
   argTypes: {
     backgroundColor: { control: 'color' },
   },
@@ -11,11 +11,9 @@ export default {
 
 function Template({ title, backgroundColor }) {
   return html`
-    <ist-vercel-demo
-      style="--ist-vercel-demo-background-color: ${backgroundColor || 'white'}"
-      .title=${title}
+    <keycloak-login
     >
-    </ist-vercel-demo>
+    </keycloak-login>
   `;
 }
 
